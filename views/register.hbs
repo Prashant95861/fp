@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+       <a href="#" class="abc">Navbar</a>
+
+       <ul class="navbar-nav ml-auto xyz">
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="/home">Home</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="/secret">Secret</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="/login">Login</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="/logout">Logout</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="/register">Registration</a>
+        </li>
+       </ul>
+    </nav>
+
+<div class="container">
+    <div class="a">
+    	<div class="b">
+        <a href="" class="roc"><i class="fa fa-rocket"></i></a>
+        <h1 class="text-light">Welcome</h1>
+        <p class="text-light">to the complete MERN course</p><br><br><br><br>
+        <a href="/login" class="rocket text-dark" style="text-decoration: none;">Login</a>
+
+    		<div class="c">  
+    			
+          <div class="d">
+            <a href="#" style="text-decoration: none;" class="top">Login</a>
+            <div class="e">
+            <a href="#" style="text-decoration: none;" class="main">Registration</a>
+            </div>
+          </div>
+
+          <h2 class="em">Employee Registration Form</h2>
+
+      <div class="container">
+        <div class="col-md-12">
+
+        <form id="sub" action="/register" method="POST">     
+
+        <input id="inputdefault" type="text" name="firstname" placeholder="first name" style="height:30px;width: 20rem;margin: 3rem 0rem 0rem 5rem">
+
+        <input id="inputdefault" type="text" name="lastname" placeholder="last name" style="height:30px; margin: 3rem 0rem 0rem 15rem;width: 20rem">
+
+        </div>
+
+        <div class="col-md-12">
+
+        <input id="inputdefault" type="text" name="email" placeholder="your email" style="height:30px;width: 20rem;margin: 3rem 0rem 0rem 5rem">
+
+        <input type="radio" name="gen" id="optionsRadios2" value="male" style="margin-left: 15rem;"><span style="font-size: 1.4rem;">Male</span>
+        <input type="radio" name="gen" id="optionsRadios2" value="female" style="margin-left: 5rem;"><span style="font-size: 1.4rem;">Female</span>
+
+        </div>
+
+        <div class="col-md-12">
+
+        <input id="inputdefault" name="phone" type="text" placeholder="your phone" style="height:30px;width: 20rem;margin: 3rem 0rem 0rem 5rem">
+
+        <input id="inputdefault" name="age" type="text" placeholder="your age" style="height:30px; margin: 3rem 0rem 0rem 15rem;width: 20rem">
+
+        </div>
+
+        <div class="col-md-12">
+
+        <input id="inputdefault" name="passw" type="text" placeholder="password" style="height:30px;width: 20rem;margin: 3rem 0rem 0rem 5rem">
+
+        <input id="inputdefault" name="cpassw" type="text" placeholder="confirm password" style="height:30px; margin: 3rem 0rem 0rem 15rem;width: 20rem">
+
+        </form>
+        </div>
+      </div><br><br>
+
+      <a href="#" style="text-decoration: none;" onclick="myfun()" class="reg">Register</a>
+
+    		</div>
+    	</div>
+    </div>	
+</div>
+
+<script>
+   function myfun(){
+      document.getElementById("sub").submit();
+   }
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

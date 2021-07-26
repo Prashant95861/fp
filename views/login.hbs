@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+       <a href="#" class="abc" style="margin-right: 10rem;">Navbar</a>
+
+       <ul class="navbar-nav ml-auto xyz">
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="/home">Home</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="/secret">Secret</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="/login">Login</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="/logout">Logout</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="/register">Registration</a>
+        </li>
+       </ul>
+    </nav>
+
+    <h2 style="margin-top: 10rem;" class="text-center">Employee Login Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="POST" action="/login">    
+        <label><b>Email</b></label>    
+        <input type="text" name="email" id="Uname" placeholder="Useremail"><br><br>    
+        <label><b>Password</b></label>    
+        <input type="text" name="password" id="Pass" placeholder="Password"><br><br>    
+        <input type="button" name="log" id="log" value="Log In Here" onclick="submitfun()"><br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span><br><br>       
+    </form>     
+    </div> 
+
+    <script>
+        function submitfun(){
+          document.getElementById("login").submit();
+        }
+    </script>   
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

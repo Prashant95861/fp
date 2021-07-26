@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+font-size: 62.5%;
+}
+.roc i{
+position: relative;    
+transform: rotate(315deg);
+font-size: 5rem;
+color: white;
+margin-left: 11rem;
+margin-top: 11rem;
+animation: myfirst 1s linear 1s infinite alternate;
+}
+@keyframes myfirst {
+0%   {bottom:0px;}
+100% {bottom:25px;}
+}
+.b h1{
+margin-left: 8.5rem;
+margin-top: 3rem;
+}
+.b p{
+margin-left: 7rem;
+margin-top: 1rem;
+}
+.rocket{
+padding: 0.6rem 2rem;
+background-color: white;
+font-size: 1.4rem;
+border-radius: 25px;
+margin-left: 10rem;
+} 
+.a{
+    width: 70vw;
+    height: 100vh;
+    display: grid;
+    place-items:center;
+}
+.b{
+    position: relative;
+    width: 65vw;
+    height: 65vh;
+    background-image: url(mern.jpg);
+    margin-top: 9rem;
+}
+.c{
+    position: absolute;
+    width: 45vw;
+    height: 55vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-34%,-50%);
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+background-color: white;
+    /*border-radius: 60% 40% 40% 20%;*/
+}
+.d{
+margin:1.8rem 0rem 0rem 39.4rem;
+position: relative;
+width: 18vw;
+height: 5vh;
+border:1px solid blue;
+border-radius: 25px;
+line-height: 5vh;
+background-color: blue;
+}
+.e{
+position: absolute;
+width: 10vw;
+height: 5vh;
+border: 1px solid blue;
+border-radius:25px;
+top: 0.3%;
+background-color: white;
+}
+.d .top{
+margin-left: 19rem;
+font-size: 2rem;
+color: white;
+}
+.e .main{
+margin-left: 2.4rem;
+font-size: 2rem;
+color: blue;
+}
+.em{
+margin:2rem 0rem 0rem 22rem;
+}
+.reg{
+padding: 0.6rem 2rem;
+background-color: blue;
+color: white;
+font-size: 2rem;
+border-radius: 25px;
+margin-left: 30rem;
+}
+.reg:hover{
+    color: white;
+}
+::placeholder{
+padding-left: 5px;
+font-size: 1.4rem;
+}
+input{
+outline: none;
+}
+.navbar{
+padding: 3rem 0;
+background-image: url(mern.jpg);
+position: fixed;
+top: 0%;
+width: 100%;
+z-index: 1;
+}
+.navbar .abc{
+color: white;
+margin-left: 10rem;
+font-size: 2rem;
+text-decoration: none;
+}
+.navbar .xyz{
+font-size: 1.4rem;
+margin-right: 10rem;
+}
+.card{
+    height: 30vh;
+    margin-top: 30rem;
+    border-radius: 10px;
+    background-image: url(mern.jpg);
+}
+.card h5{
+    font-size: 2rem;
+    text-align: center;
+    color: lightblue;
+}
+.card p{
+    font-size: 1.4rem;
+    margin-top: 5rem;
+    color: lightblue;
+}
+.card a{
+    margin-top: 4rem;
+    margin-left: 12rem;
+}    
+.login{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background-image:url(mern.jpg);  
+    border-radius: 15px ;         
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+    width: 100%;
+}  
+#Uname{  
+    width: 220px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 220px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+}
+#log{  
+    width: 220px;  
+    height: 30px;  
+    border: none;  
+    margin-top: 2rem;
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+}   
+.login span{  
+    color: white;  
+    font-size: 17px;  
+}        
